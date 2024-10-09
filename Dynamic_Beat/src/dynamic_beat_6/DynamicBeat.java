@@ -21,11 +21,11 @@ public class DynamicBeat extends JFrame {
 	private Image screenImage;
 	private Graphics screenGraphics;
 	
-	private Image titleImage = new ImageIcon(Main.class.getResource("../images/beethovenTitle.png")).getImage();
-//	private Image titleImage = new ImageIcon(Main.class.getResource("../images/DOTSPFTitle.png")).getImage();
+//	private Image titleImage = new ImageIcon(Main.class.getResource("../images/beethovenTitle.png")).getImage();
+	private Image titleImage = new ImageIcon(Main.class.getResource("../images/DOTSPFTitle.png")).getImage();
 	// 시작 이미지
-	private Image selectedImage = new ImageIcon(Main.class.getResource("../images/beethoven.jpg")).getImage();
-//	private Image selectedImage = new ImageIcon(Main.class.getResource("../images/ballet1.jpg")).getImage();
+//	private Image selectedImage = new ImageIcon(Main.class.getResource("../images/beethoven.jpg")).getImage();
+	private Image selectedImage = new ImageIcon(Main.class.getResource("../images/ballet1.jpg")).getImage();
 	
 	private Image background = new ImageIcon(Main.class.getResource("../images/introBackGround_.jpg")).getImage();
 	private JLabel menuBar = new JLabel(new ImageIcon(Main.class.getResource("../images/menubar.jpg")));
